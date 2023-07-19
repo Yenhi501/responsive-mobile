@@ -437,4 +437,7 @@ img{
   .send__container{
     column-gap: 5rem;
   }
+  .section-title{
+    margin-left: 25px;
+  }
 }
