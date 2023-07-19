@@ -51,22 +51,3 @@ const sr = ScrollReveal({
   duration: 1800,
   reset: true,
 });
-
-sr.reveal(
-  `.home__data, .home__img, 
-           .decoration__data,
-           .accessory__content,
-           .footer__content`,
-  {
-    origin: "top",
-    interval: 200,
-  }
-);
-
-sr.reveal(`.share__img, .send__content`, {
-  origin: "left",
-});
-
-sr.reveal(`.share__data, .send__img`, {
-  origin: "right",
-});
