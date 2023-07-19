@@ -313,9 +313,7 @@ img{
 
 
 @media screen and (max-width: 359px){
-  .home__img,
-  .share__img,
-  .send__img{
+  .home__img{
     width: 100%;
   }
   .relatedProducts__preci {
@@ -324,9 +322,7 @@ img{
 }
 
 @media screen and (min-width: 576px){
-  .home__container,
-  .share__container,
-  .send__container{
+  .home__container{
     grid-template-columns: repeat(3,1fr);
     align-items: center;
   }
@@ -339,20 +335,12 @@ img{
     order: 1;
   }
 
-  .section-title-center,
-  .share__data,
-  .send__description{
+  .section-title-center{
     text-align: initial;
   }
 
-  .home__img,
-  .share__img,
-  .send__img{
+  .home__img{
     width: 100%;
-  }
-  
-  .share__img{
-    order: -1;
   }
 }
 
@@ -382,9 +370,6 @@ img{
     padding: 7rem 2rem 0;
   }
 
-  .share__container{
-    padding: 0 2rem;
-  }
 
   .relatedProducts__container{
     grid-template-columns: repeat(3,300px);
@@ -409,15 +394,6 @@ img{
     font-size: 16px;
   }
 
-  .send{
-    background: none;
-  }
-
-  .send__container{
-    background-color: var(--first-color-send);
-    padding: 2rem;
-    border-radius: 1.5rem;
-  }
 }
 
 @media screen and (min-width: 968px){
@@ -426,15 +402,11 @@ img{
     margin-right: auto;
   }
 
-  .home__img,
-  .share__img,
-  .send__img{
+  .home__img{
     width: 469px;
   }
 
-  .home__container,
-  .share__container,
-  .send__container{
+  .home__container{
     column-gap: 5rem;
   }
   .section-title{
